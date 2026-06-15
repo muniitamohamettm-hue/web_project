@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is-diiwaangeli - TechSom</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="team.html">Our Team</a>
+        <a href="ragistration.html">Register</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <header>
+        <h1>Foomka Is-diiwaangelinta Xubnaha</h1>
+        <p>Ku soo biir asxaabta tignoolajiyada jecel</p>
+    </header>
+
+    <div class="container" style="background: white; padding: 30px; border-radius: 8px;">
+        <form action="#" method="POST">
+            
+            <div class="form-group">
+                <label for="fullname">Magacaaga oo Buuxa:</label>
+                <input type="text" id="fullname" name="fullname" required placeholder="Gali magacaaga...">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email-kaaga:</label>
+                <input type="email" id="email" name="email" required placeholder="usaale@gmail.com">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password Cusub:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="form-group">
+                <label>Lab ama Dheddig (Gender):</label>
+                <div class="form-inline">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male" style="display:inline;">Lab</label>
+                </div>
+                <div class="form-inline">
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female" style="display:inline;">Dheddig</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="course">Dooro Koorsada Aad Rabto:</label>
+                <select id="course" name="course">
+                    <option value="web-dev">Web Development</option>
+                    <option value="python">Python Programming</option>
+                    <option value="cyber">Cyber Security Basics</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Mawduucyada aad xiisaynayso:</label>
+                <div class="form-inline">
+                    <input type="checkbox" id="html" name="interest" value="html">
+                    <label for="html" style="display:inline;">HTML/CSS</label>
+                </div>
+                <div class="form-inline">
+                    <input type="checkbox" id="js" name="interest" value="js">
+                    <label for="js" style="display:inline;">JavaScript</label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-submit">save</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 TechSom Solutions. Xuquuqda way dhowrantahay.</p>
+    </footer>
+
+</body>
+</html>
